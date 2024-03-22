@@ -1,0 +1,1755 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - Supermarket Simulator (14/03/2024 07:41:27)
+[Info   :   BepInEx] Running under Unity v2021.3.31.3410402
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.PluginDoctor.Patcher 0.1.1.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 5 plugins to load
+[Info   :   BepInEx] Loading [BepInEx.MelonLoader.Loader.UnityMono 2.1.0]
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Game Name: Supermarket Simulator
+[Message:MelonLoader] Game Developer: Nokta Games
+[Message:MelonLoader] Unity Version: 2021.3.31f1
+[Message:MelonLoader] Game Version: UNKNOWN
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] 
+[Message:MelonLoader] Preferences Loaded!
+[Message:MelonLoader] 
+[Message:MelonLoader] Loading Plugins from 'C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\Plugins'...
+[Message:MelonLoader] 0 Plugins loaded.
+[Message:MelonLoader] 
+[Message:MelonLoader] Loading Mods from 'C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\Mods'...
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\BetterMovement.dll'
+[Message:MelonLoader] SHA256 Hash: '341a1738830ef5ac67f614e5fd34c5dd67560974e8d01ea606bc38af5005d293'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\NightGlow.dll'
+[Message:MelonLoader] SHA256 Hash: 'f4d4f1eb56dfc224a3045d0aa64629db1636727d3099536fd314deec1caf4e20'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\NoOverwritingLabels.dll'
+[Message:MelonLoader] SHA256 Hash: '4949d21ff6b0a5a8a1cbf005681d2f80b37a57755c7d21a7699a46577ffc0fba'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\RDCTweak.dll'
+[Message:MelonLoader] SHA256 Hash: '50d22caa39e023b83241e200d53f83161b6f46b845f4cb3739923b2f8a2ae39d'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\StockManager.dll'
+[Message:MelonLoader] SHA256 Hash: 'c43038d30725f7d3c7a6f7a626f49c86a0e0194f0bb0fdefd557f70e19bc0fe1'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\StoreRenamer.dll'
+[Message:MelonLoader] SHA256 Hash: '4f60c77385b2525cbe3f3bc5ca5a1f86eb7a197b9d4e6ed3c25a773452f77a15'
+[Message:MelonLoader] 
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Better Movement v1.0.5 by Jonx []
+[Message:MelonLoader] Assembly: BetterMovement.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] NightGlow v0.0.4 by DIASILEDU []
+[Message:MelonLoader] Assembly: NightGlow.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] NoOverwritingLabels v1.0.0 by AlconH []
+[Message:MelonLoader] Assembly: NoOverwritingLabels.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] RDC Tweaks v0.5.1 by RedDeadConejo []
+[Message:MelonLoader] Assembly: RDCTweak.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] StockManager v0.9.0 by RedDeadConejo []
+[Message:MelonLoader] Assembly: StockManager.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] StoreRenamer v0.0.1 by DIASILEDU []
+[Message:MelonLoader] Assembly: StoreRenamer.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] 6 Mods loaded.
+[Message:MelonLoader] 
+[Message:MelonLoader] Support Module Loaded: C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\MelonLoader\Dependencies\SupportModules\Mono.dll
+[Info   : Unity Log] -------------------------------------------------------------------------------------------------------
+[Info   : Unity Log] ~   This Game has been MODIFIED using MelonLoader. DO NOT report any issues to the Game Developers!   ~
+[Info   : Unity Log] -------------------------------------------------------------------------------------------------------
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type FirstPersonController and name OnEnable and parameters 
+[Error  :MelonLoader] [Better_Movement] HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static void BetterMovement.FirstPersonController_OnEnable_Patch::Postfix(FirstPersonController __instance)
+  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x0006a] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0006c] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00095] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) [0x00007] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at MelonLoader.MelonMod.HarmonyInit () [0x00024] in <25dbf314fe56482eac5c1b90ce520669>:0 
+  at MelonLoader.MelonEvent+<>c.<Invoke>b__1_0 (MelonLoader.LemonAction x) [0x00000] in <25dbf314fe56482eac5c1b90ce520669>:0 
+  at MelonLoader.MelonEventBase`1[T].Invoke (System.Action`1[T] delegateInvoker) [0x00024] in <25dbf314fe56482eac5c1b90ce520669>:0 
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type FirstPersonController and name OnEnable and parameters 
+[Error  :MelonLoader] [Better_Movement] HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static void BetterMovement.FirstPersonController_OnEnable_Patch::Postfix(FirstPersonController __instance)
+  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) [0x00047] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x0006a] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+   --- End of inner exception stack trace ---
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x0006c] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x00095] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) [0x00007] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001b] in <474744d65d8e460fa08cd5fd82b5d65f>:0 
+  at BetterMovement.BetterMovementClass.OnApplicationStart () [0x00016] in <5fda4cf8ffd94455966529445796df8d>:0 
+  at MelonLoader.MelonEvent+<>c.<Invoke>b__1_0 (MelonLoader.LemonAction x) [0x00000] in <25dbf314fe56482eac5c1b90ce520669>:0 
+  at MelonLoader.MelonEventBase`1[T].Invoke (System.Action`1[T] delegateInvoker) [0x00024] in <25dbf314fe56482eac5c1b90ce520669>:0 
+[Message:MelonLoader] MelonPreferences Loaded from C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\UserData\NightGlow.cfg
+[Message:MelonLoader] [NightGlow] MelonPreferences Loaded from C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\UserData\NightGlow.cfg
+[Message:MelonLoader] [NightGlow] NightGlowMarketMod has been loaded!
+[Message:MelonLoader] [StoreRenamer] StoreRenamer has started!
+[Message:MelonLoader] MelonPreferences Loaded from C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\UserData\StoreRenamer.cfg
+[Message:MelonLoader] [StoreRenamer] MelonPreferences Loaded from C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator\MLLoader\UserData\StoreRenamer.cfg
+[Info   :   BepInEx] Loading [ChangeCurrency 1.0.0]
+[Info   :ChangeCurrency] Plugin ChangeCurrency is loaded! Applying patch...
+[Info   :   BepInEx] Loading [SmartPocketBoxes 1.1.1]
+[Info   :   BepInEx] Loading [File Tree 1.0.0]
+[Info   :   BepInEx] Loading [Plugin Doctor 0.1.1]
+[Message:   BepInEx] Chainloader startup complete
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : BoxGenerator not found on scene
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+SmartPocketBoxes.Plugin.<Awake>b__10_0 (UnityEngine.SceneManagement.Scene s1, UnityEngine.SceneManagement.Scene s2) (at <dcab493b60bb4383a76503866d26a6f2>:0)
+UnityEngine.SceneManagement.SceneManager.Internal_ActiveSceneChanged (UnityEngine.SceneManagement.Scene previousActiveScene, UnityEngine.SceneManagement.Scene newActiveScene) (at <a20b3695b7ce4017b7981f9d06962bd1>:0)
+
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : BoxGenerator not found on scene
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+SmartPocketBoxes.Plugin.<Awake>b__10_0 (UnityEngine.SceneManagement.Scene s1, UnityEngine.SceneManagement.Scene s2) (at <dcab493b60bb4383a76503866d26a6f2>:0)
+UnityEngine.SceneManagement.SceneManager.Internal_ActiveSceneChanged (UnityEngine.SceneManagement.Scene previousActiveScene, UnityEngine.SceneManagement.Scene newActiveScene) (at <a20b3695b7ce4017b7981f9d06962bd1>:0)
+
+[Message:Plugin Doctor] The Doctor is in.
+[Message: File Tree] C:\Program Files (x86)\Steam\steamapps\common\Supermarket Simulator
+[Message: File Tree] |
+[Message: File Tree] |-- BepInEx
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- cache
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- chainloader_typeloader.dat [2,4 KB]
+[Message: File Tree] |   |   \-- harmony_interop_cache.dat [3,2 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- config
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- BepInEx.cfg [5,43 KB]
+[Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.cfg [2,51 KB]
+[Message: File Tree] |   |   |-- ChangeCurrency.cfg [614 B]
+[Message: File Tree] |   |   |-- PortableScanner.cfg [258 B]
+[Message: File Tree] |   |   |-- SmartPocketBoxes.cfg [1022 B]
+[Message: File Tree] |   |   \-- Tobey.FileTree.cfg [406 B]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- core
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- 0Harmony.dll [200 KB]
+[Message: File Tree] |   |   |-- 0Harmony.xml [260,85 KB]
+[Message: File Tree] |   |   |-- 0Harmony20.dll [109 KB]
+[Message: File Tree] |   |   |-- BepInEx.dll [124,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Harmony.dll [5,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Harmony.xml [3,96 KB]
+[Message: File Tree] |   |   |-- BepInEx.Preloader.dll [41,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Preloader.xml [7,79 KB]
+[Message: File Tree] |   |   |-- BepInEx.xml [87,73 KB]
+[Message: File Tree] |   |   |-- HarmonyXInterop.dll [23 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.dll [331,5 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Mdb.dll [42 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Pdb.dll [84,5 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Rocks.dll [27 KB]
+[Message: File Tree] |   |   |-- MonoMod.RuntimeDetour.dll [103,5 KB]
+[Message: File Tree] |   |   |-- MonoMod.RuntimeDetour.xml [9,19 KB]
+[Message: File Tree] |   |   |-- MonoMod.Utils.dll [183,5 KB]
+[Message: File Tree] |   |   \-- MonoMod.Utils.xml [77,12 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- patchers
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- Tobey
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       \-- Plugin Doctor
+[Message: File Tree] |   |           |
+[Message: File Tree] |   |           \-- Tobey.PluginDoctor.Patcher.dll [7 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- plugins
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- AssetRipper.VersionUtilities.dll [17,5 KB]
+[Message: File Tree] |   |   |   |-- AssetsTools.NET.dll [214 KB]
+[Message: File Tree] |   |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.dll [6 KB]
+[Message: File Tree] |   |   |   |-- bHapticsLib.dll [47,5 KB]
+[Message: File Tree] |   |   |   |-- EZDelivery.dll [7,5 KB]
+[Message: File Tree] |   |   |   |-- MelonLoader.dll [676 KB]
+[Message: File Tree] |   |   |   |-- Tomlet.dll [90 KB]
+[Message: File Tree] |   |   |   \-- WebSocketDotNet.dll [36 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- Tobey
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- File Tree
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- AutoPriceUpdater.dll [11,5 KB]
+[Message: File Tree] |   |   |   |   |-- NightGlow.dll [9 KB]
+[Message: File Tree] |   |   |   |   \-- Tobey.FileTree.dll [23 KB]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   \-- Plugin Doctor
+[Message: File Tree] |   |   |       |
+[Message: File Tree] |   |   |       \-- Tobey.PluginDoctor.dll [34,5 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- ChangeCurrency.Euro.dll [7 KB]
+[Message: File Tree] |   |   \-- SmartPocketBoxes.dll [12,5 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- LogOutput.log [9,84 KB]
+[Message: File Tree] |
+[Message: File Tree] |-- MLLoader
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- MelonLoader
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- Dependencies
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       |-- CompatibilityLayers
+[Message: File Tree] |   |       |   |
+[Message: File Tree] |   |       |   |-- Demeo.dll [9,5 KB]
+[Message: File Tree] |   |       |   |-- IPA.dll [9,5 KB]
+[Message: File Tree] |   |       |   \-- Muse_Dash_Mono.dll [8 KB]
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       |-- SupportModules
+[Message: File Tree] |   |       |   |
+[Message: File Tree] |   |       |   |-- Mono.dll [11 KB]
+[Message: File Tree] |   |       |   \-- Preload.dll [1,86 MB]
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       \-- MelonStartScreen.dll [704 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- Mods
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- BetterMovement.dll [12 KB]
+[Message: File Tree] |   |   |-- NightGlow.dll [9,5 KB]
+[Message: File Tree] |   |   |-- NoOverwritingLabels.dll [6 KB]
+[Message: File Tree] |   |   |-- RDCTweak.dll [11 KB]
+[Message: File Tree] |   |   |-- StockManager.dll [12,5 KB]
+[Message: File Tree] |   |   \-- StoreRenamer.dll [6 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- Plugins
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- UserData
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- MelonPreferences.cfg [0 b]
+[Message: File Tree] |   |   |-- NightGlow.cfg [104 B]
+[Message: File Tree] |   |   |-- PriceUpdater.cfg [874 B]
+[Message: File Tree] |   |   \-- StoreRenamer.cfg [69 B]
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- UserLibs
+[Message: File Tree] |
+[Message: File Tree] |-- MonoBleedingEdge
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- Supermarket Simulator_BurstDebugInformation_DoNotShip
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- Supermarket Simulator_Data
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- changelog.txt [1,36 KB]
+[Message: File Tree] |-- doorstop_config.ini [891 B]
+[Message: File Tree] |-- Supermarket Simulator.exe [638,5 KB]
+[Message: File Tree] |-- UnityCrashHandler64.exe [1,07 MB]
+[Message: File Tree] |-- UnityPlayer.dll [28,09 MB]
+[Message: File Tree] \-- winhttp.dll [24,5 KB]
+[Message:Plugin Doctor] |=====================  PLUGIN DOCTOR REPORT  =====================|
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   PLUGINS SKIPPED BY BEPINEX
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   PLUGINS WHICH FAILED TO INITIALISE
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   PLUGINS WITH POTENTIAL ISSUES
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   - ChangeCurrency
+[Message:Plugin Doctor]       guid:     ChangeCurrency
+[Message:Plugin Doctor]       version:  1.0.0
+[Message:Plugin Doctor]       filename: ChangeCurrency.Euro.dll
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     SYMPTOMS
+[Message:Plugin Doctor] 
+[Warning:Plugin Doctor]       plugin has missing assembly references:
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       - System.Security 4.0.0.0
+[Message:Plugin Doctor]       - System.Transactions 4.0.0.0
+[Message:Plugin Doctor]       - System.EnterpriseServices 4.0.0.0
+[Message:Plugin Doctor]       - System.Data.DataSetExtensions 4.0.0.0
+[Message:Plugin Doctor]       - System.Drawing 4.0.0.0
+[Message:Plugin Doctor]       - System.IO.Compression 4.0.0.0
+[Message:Plugin Doctor]       - System.IO.Compression.FileSystem 4.0.0.0
+[Message:Plugin Doctor]       - System.ComponentModel.Composition 4.0.0.0
+[Message:Plugin Doctor]       - System.Net.Http 4.0.0.0
+[Message:Plugin Doctor]       - System.ServiceModel.Internals 0.0.0.0
+[Message:Plugin Doctor]       - System.Xml.Linq 4.0.0.0
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       this might mean the game or game version is incompatible,
+[Message:Plugin Doctor]       it could be indicative of missing requirements, or the
+[Message:Plugin Doctor]       missing references could simply be optional dependencies.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     ADVISEMENT
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient should check the documentation of the plugin for
+[Message:Plugin Doctor]       indications of whether the plugin is intended for use on a
+[Message:Plugin Doctor]       specific version of the game, and if so, patient should
+[Message:Plugin Doctor]       consult with the developer of the plugin and/or the
+[Message:Plugin Doctor]       modding community for advice on how to resolve this.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       otherwise, patient is advised to check the documentation
+[Message:Plugin Doctor]       of the plugin for its requirements and optional
+[Message:Plugin Doctor]       dependencies and where to obtain them, and install them.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient is advised to consult with the developer of the
+[Message:Plugin Doctor]       plugin and/or the modding community if symptoms persist.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   - SmartPocketBoxes
+[Message:Plugin Doctor]       guid:     SmartPocketBoxes
+[Message:Plugin Doctor]       version:  1.1.1
+[Message:Plugin Doctor]       filename: SmartPocketBoxes.dll
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     SYMPTOMS
+[Message:Plugin Doctor] 
+[Warning:Plugin Doctor]       plugin has missing assembly references:
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       - System.Security 4.0.0.0
+[Message:Plugin Doctor]       - System.Transactions 4.0.0.0
+[Message:Plugin Doctor]       - System.EnterpriseServices 4.0.0.0
+[Message:Plugin Doctor]       - System.Data.DataSetExtensions 4.0.0.0
+[Message:Plugin Doctor]       - System.Drawing 4.0.0.0
+[Message:Plugin Doctor]       - System.IO.Compression 4.0.0.0
+[Message:Plugin Doctor]       - System.IO.Compression.FileSystem 4.0.0.0
+[Message:Plugin Doctor]       - System.ComponentModel.Composition 4.0.0.0
+[Message:Plugin Doctor]       - System.Net.Http 4.0.0.0
+[Message:Plugin Doctor]       - System.ServiceModel.Internals 0.0.0.0
+[Message:Plugin Doctor]       - System.Xml.Linq 4.0.0.0
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       this might mean the game or game version is incompatible,
+[Message:Plugin Doctor]       it could be indicative of missing requirements, or the
+[Message:Plugin Doctor]       missing references could simply be optional dependencies.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     ADVISEMENT
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient should check the documentation of the plugin for
+[Message:Plugin Doctor]       indications of whether the plugin is intended for use on a
+[Message:Plugin Doctor]       specific version of the game, and if so, patient should
+[Message:Plugin Doctor]       consult with the developer of the plugin and/or the
+[Message:Plugin Doctor]       modding community for advice on how to resolve this.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       otherwise, patient is advised to check the documentation
+[Message:Plugin Doctor]       of the plugin for its requirements and optional
+[Message:Plugin Doctor]       dependencies and where to obtain them, and install them.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient is advised to consult with the developer of the
+[Message:Plugin Doctor]       plugin and/or the modding community if symptoms persist.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   - BepInEx.MelonLoader.Loader.UnityMono
+[Message:Plugin Doctor]       guid:     BepInEx.MelonLoader.Loader.UnityMono
+[Message:Plugin Doctor]       version:  2.1.0
+[Message:Plugin Doctor]       filename: BepInEx.MelonLoader.Loader.UnityMono.dll
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     SYMPTOMS
+[Message:Plugin Doctor] 
+[Warning:Plugin Doctor]       plugin has missing assembly references:
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       - System.Security 4.0.0.0
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       this might mean the game or game version is incompatible,
+[Message:Plugin Doctor]       it could be indicative of missing requirements, or the
+[Message:Plugin Doctor]       missing references could simply be optional dependencies.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     ADVISEMENT
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient should check the documentation of the plugin for
+[Message:Plugin Doctor]       indications of whether the plugin is intended for use on a
+[Message:Plugin Doctor]       specific version of the game, and if so, patient should
+[Message:Plugin Doctor]       consult with the developer of the plugin and/or the
+[Message:Plugin Doctor]       modding community for advice on how to resolve this.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       otherwise, patient is advised to check the documentation
+[Message:Plugin Doctor]       of the plugin for its requirements and optional
+[Message:Plugin Doctor]       dependencies and where to obtain them, and install them.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient is advised to consult with the developer of the
+[Message:Plugin Doctor]       plugin and/or the modding community if symptoms persist.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   - File Tree
+[Message:Plugin Doctor]       guid:     Tobey.FileTree
+[Message:Plugin Doctor]       version:  1.0.0
+[Message:Plugin Doctor]       filename: Tobey.FileTree.dll
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     SYMPTOMS
+[Message:Plugin Doctor] 
+[Warning:Plugin Doctor]       plugin has missing assembly references:
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       - System.Security 4.0.0.0
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       this might mean the game or game version is incompatible,
+[Message:Plugin Doctor]       it could be indicative of missing requirements, or the
+[Message:Plugin Doctor]       missing references could simply be optional dependencies.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     ADVISEMENT
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient should check the documentation of the plugin for
+[Message:Plugin Doctor]       indications of whether the plugin is intended for use on a
+[Message:Plugin Doctor]       specific version of the game, and if so, patient should
+[Message:Plugin Doctor]       consult with the developer of the plugin and/or the
+[Message:Plugin Doctor]       modding community for advice on how to resolve this.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       otherwise, patient is advised to check the documentation
+[Message:Plugin Doctor]       of the plugin for its requirements and optional
+[Message:Plugin Doctor]       dependencies and where to obtain them, and install them.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient is advised to consult with the developer of the
+[Message:Plugin Doctor]       plugin and/or the modding community if symptoms persist.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   - Plugin Doctor
+[Message:Plugin Doctor]       guid:     Tobey.PluginDoctor
+[Message:Plugin Doctor]       version:  0.1.1
+[Message:Plugin Doctor]       filename: Tobey.PluginDoctor.dll
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     SYMPTOMS
+[Message:Plugin Doctor] 
+[Warning:Plugin Doctor]       plugin has missing assembly references:
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       - System.Security 4.0.0.0
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       this might mean the game or game version is incompatible,
+[Message:Plugin Doctor]       it could be indicative of missing requirements, or the
+[Message:Plugin Doctor]       missing references could simply be optional dependencies.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]     ADVISEMENT
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient should check the documentation of the plugin for
+[Message:Plugin Doctor]       indications of whether the plugin is intended for use on a
+[Message:Plugin Doctor]       specific version of the game, and if so, patient should
+[Message:Plugin Doctor]       consult with the developer of the plugin and/or the
+[Message:Plugin Doctor]       modding community for advice on how to resolve this.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       otherwise, patient is advised to check the documentation
+[Message:Plugin Doctor]       of the plugin for its requirements and optional
+[Message:Plugin Doctor]       dependencies and where to obtain them, and install them.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]       patient is advised to consult with the developer of the
+[Message:Plugin Doctor]       plugin and/or the modding community if symptoms persist.
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor]   PLUGINS WITH NO DETECTED ISSUES
+[Message:Plugin Doctor] 
+[Message:Plugin Doctor] |==================================================================|
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Error  : Unity Log] FormatException: Input string was not in a correct format.
+Stack trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <afe256a0391e468fbcdb82154daad696>:0)
+System.Number.ParseInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <afe256a0391e468fbcdb82154daad696>:0)
+System.Int32.Parse (System.String s) (at <afe256a0391e468fbcdb82154daad696>:0)
+NightGlow.LightSwitcher.Start () (at <2bedd48cacc341f98369cf35bc9ed633>:0)
+
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► 
+[Info   : Unity Log] Checked a task with state of: IDLE
+[Info   : Unity Log] Looking for something to restock...
+[Info   : Unity Log] State turned to Restocking and resetted targets
+[Info   : Unity Log] Products found in inventory:
+[Info   : Unity Log] ProductID: 2
+[Info   : Unity Log] Product count: 6
+[Info   : Unity Log] ProductID: 42
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 149
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 145
+[Info   : Unity Log] Product count: 10
+[Info   : Unity Log] ProductID: 101
+[Info   : Unity Log] Product count: 11
+[Info   : Unity Log] ProductID: 108
+[Info   : Unity Log] Product count: 12
+[Info   : Unity Log] ProductID: 1
+[Info   : Unity Log] Product count: 13
+[Info   : Unity Log] ProductID: 122
+[Info   : Unity Log] Product count: 14
+[Info   : Unity Log] ProductID: 125
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 36
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 150
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 37
+[Info   : Unity Log] Product count: 18
+[Info   : Unity Log] ProductID: 75
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 58
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 107
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 9
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 69
+[Info   : Unity Log] Product count: 23
+[Info   : Unity Log] ProductID: 61
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 63
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 95
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 115
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 77
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 123
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 157
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 120
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 100
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 96
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 134
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 133
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 55
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 119
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 44
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 43
+[Info   : Unity Log] Product count: 30
+[Info   : Unity Log] ProductID: 132
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 140
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 121
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 99
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 85
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 10
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 76
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 56
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 111
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 128
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 41
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 114
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 113
+[Info   : Unity Log] Product count: 35
+[Info   : Unity Log] ProductID: 39
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 32
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 131
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 46
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 65
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 88
+[Info   : Unity Log] Product count: 38
+[Info   : Unity Log] ProductID: 24
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 86
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 66
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 67
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 129
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 34
+[Info   : Unity Log] Product count: 41
+[Info   : Unity Log] ProductID: 3
+[Info   : Unity Log] Product count: 42
+[Info   : Unity Log] ProductID: 147
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 52
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 68
+[Info   : Unity Log] Product count: 44
+[Info   : Unity Log] ProductID: 117
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 64
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 25
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 62
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 70
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 33
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 146
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 141
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 84
+[Info   : Unity Log] Product count: 47
+[Info   : Unity Log] ProductID: 35
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 152
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 116
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 139
+[Info   : Unity Log] Product count: 54
+[Info   : Unity Log] ProductID: 74
+[Info   : Unity Log] Product count: 55
+[Info   : Unity Log] ProductID: 26
+[Info   : Unity Log] Product count: 58
+[Info   : Unity Log] ProductID: 73
+[Info   : Unity Log] Product count: 59
+[Info   : Unity Log] ProductID: 83
+[Info   : Unity Log] Product count: 60
+[Info   : Unity Log] ProductID: 30
+[Info   : Unity Log] Product count: 68
+[Info   : Unity Log] ProductID: 151
+[Info   : Unity Log] Product count: 75
+[Info   : Unity Log] ProductID: 161
+[Info   : Unity Log] Product count: 89
+[Info   : Unity Log] Cheching productID: 2
+[Info   : Unity Log] Looking for available display slot to restock productID: 2
+[Info   : Unity Log] There's no display slot that has productID 2 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 2
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 2. Looking for next product...
+[Info   : Unity Log] Cheching productID: 42
+[Info   : Unity Log] Looking for available display slot to restock productID: 42
+[Info   : Unity Log] There's no display slot that has productID 42 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 42
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 42. Looking for next product...
+[Info   : Unity Log] Cheching productID: 149
+[Info   : Unity Log] Looking for available display slot to restock productID: 149
+[Info   : Unity Log] There's no display slot that has productID 149 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 149
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 149. Looking for next product...
+[Info   : Unity Log] Cheching productID: 145
+[Info   : Unity Log] Looking for available display slot to restock productID: 145
+[Info   : Unity Log] There's no display slot that has productID 145 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 145
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 145. Looking for next product...
+[Info   : Unity Log] Cheching productID: 101
+[Info   : Unity Log] Looking for available display slot to restock productID: 101
+[Info   : Unity Log] There's no display slot that has productID 101 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 101
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 101. Looking for next product...
+[Info   : Unity Log] Cheching productID: 108
+[Info   : Unity Log] Looking for available display slot to restock productID: 108
+[Info   : Unity Log] There's no display slot that has productID 108 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 108
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 108. Looking for next product...
+[Info   : Unity Log] Cheching productID: 1
+[Info   : Unity Log] Looking for available display slot to restock productID: 1
+[Info   : Unity Log] Found an available display slot for productID: 1
+[Info   : Unity Log] Occupied productID: 1
+[Info   : Unity Log] Looking for a racked box that contains productID: 1
+[Info   : Unity Log] There's no rack slot with a box for productID: 1
+[Info   : Unity Log] That's why couldn't find any available rack slot for productID: 1. Looking for next product...
+[Info   : Unity Log] Cheching productID: 122
+[Info   : Unity Log] Looking for available display slot to restock productID: 122
+[Info   : Unity Log] There's no display slot that has productID 122 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 122
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 122. Looking for next product...
+[Info   : Unity Log] Cheching productID: 125
+[Info   : Unity Log] Looking for available display slot to restock productID: 125
+[Info   : Unity Log] Found an available display slot for productID: 125
+[Info   : Unity Log] Occupied productID: 125
+[Info   : Unity Log] Looking for a racked box that contains productID: 125
+[Info   : Unity Log] Going to target rack slot...
+[Info   : Unity Log] Checked a task with state of: IDLE
+[Info   : Unity Log] Looking for something to restock...
+[Info   : Unity Log] State turned to Restocking and resetted targets
+[Info   : Unity Log] Products found in inventory:
+[Info   : Unity Log] ProductID: 2
+[Info   : Unity Log] Product count: 6
+[Info   : Unity Log] ProductID: 42
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 149
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 145
+[Info   : Unity Log] Product count: 10
+[Info   : Unity Log] ProductID: 101
+[Info   : Unity Log] Product count: 11
+[Info   : Unity Log] ProductID: 108
+[Info   : Unity Log] Product count: 12
+[Info   : Unity Log] ProductID: 1
+[Info   : Unity Log] Product count: 13
+[Info   : Unity Log] ProductID: 122
+[Info   : Unity Log] Product count: 14
+[Info   : Unity Log] ProductID: 125
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 36
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 150
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 37
+[Info   : Unity Log] Product count: 18
+[Info   : Unity Log] ProductID: 75
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 58
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 107
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 9
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 69
+[Info   : Unity Log] Product count: 23
+[Info   : Unity Log] ProductID: 61
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 63
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 95
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 115
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 77
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 123
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 157
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 120
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 100
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 96
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 134
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 133
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 55
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 119
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 44
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 43
+[Info   : Unity Log] Product count: 30
+[Info   : Unity Log] ProductID: 132
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 140
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 121
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 99
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 85
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 10
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 76
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 56
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 111
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 128
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 41
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 114
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 113
+[Info   : Unity Log] Product count: 35
+[Info   : Unity Log] ProductID: 39
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 32
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 131
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 46
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 65
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 88
+[Info   : Unity Log] Product count: 38
+[Info   : Unity Log] ProductID: 24
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 86
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 66
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 67
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 129
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 34
+[Info   : Unity Log] Product count: 41
+[Info   : Unity Log] ProductID: 3
+[Info   : Unity Log] Product count: 42
+[Info   : Unity Log] ProductID: 147
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 52
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 68
+[Info   : Unity Log] Product count: 44
+[Info   : Unity Log] ProductID: 117
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 64
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 25
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 62
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 70
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 33
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 146
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 141
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 84
+[Info   : Unity Log] Product count: 47
+[Info   : Unity Log] ProductID: 35
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 152
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 116
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 139
+[Info   : Unity Log] Product count: 54
+[Info   : Unity Log] ProductID: 74
+[Info   : Unity Log] Product count: 55
+[Info   : Unity Log] ProductID: 26
+[Info   : Unity Log] Product count: 58
+[Info   : Unity Log] ProductID: 73
+[Info   : Unity Log] Product count: 59
+[Info   : Unity Log] ProductID: 83
+[Info   : Unity Log] Product count: 60
+[Info   : Unity Log] ProductID: 30
+[Info   : Unity Log] Product count: 68
+[Info   : Unity Log] ProductID: 151
+[Info   : Unity Log] Product count: 75
+[Info   : Unity Log] ProductID: 161
+[Info   : Unity Log] Product count: 89
+[Info   : Unity Log] Cheching productID: 2
+[Info   : Unity Log] Looking for available display slot to restock productID: 2
+[Info   : Unity Log] There's no display slot that has productID 2 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 2
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 2. Looking for next product...
+[Info   : Unity Log] Cheching productID: 42
+[Info   : Unity Log] Looking for available display slot to restock productID: 42
+[Info   : Unity Log] There's no display slot that has productID 42 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 42
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 42. Looking for next product...
+[Info   : Unity Log] Cheching productID: 149
+[Info   : Unity Log] Looking for available display slot to restock productID: 149
+[Info   : Unity Log] There's no display slot that has productID 149 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 149
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 149. Looking for next product...
+[Info   : Unity Log] Cheching productID: 145
+[Info   : Unity Log] Looking for available display slot to restock productID: 145
+[Info   : Unity Log] There's no display slot that has productID 145 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 145
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 145. Looking for next product...
+[Info   : Unity Log] Cheching productID: 101
+[Info   : Unity Log] Looking for available display slot to restock productID: 101
+[Info   : Unity Log] There's no display slot that has productID 101 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 101
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 101. Looking for next product...
+[Info   : Unity Log] Cheching productID: 108
+[Info   : Unity Log] Looking for available display slot to restock productID: 108
+[Info   : Unity Log] There's no display slot that has productID 108 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 108
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 108. Looking for next product...
+[Info   : Unity Log] Cheching productID: 1
+[Info   : Unity Log] Looking for available display slot to restock productID: 1
+[Info   : Unity Log] Found an available display slot for productID: 1
+[Info   : Unity Log] Occupied productID: 1
+[Info   : Unity Log] Looking for a racked box that contains productID: 1
+[Info   : Unity Log] There's no rack slot with a box for productID: 1
+[Info   : Unity Log] That's why couldn't find any available rack slot for productID: 1. Looking for next product...
+[Info   : Unity Log] Cheching productID: 122
+[Info   : Unity Log] Looking for available display slot to restock productID: 122
+[Info   : Unity Log] There's no display slot that has productID 122 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 122
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 122. Looking for next product...
+[Info   : Unity Log] Cheching productID: 125
+[Info   : Unity Log] Another restocker have occupied this product. Looking for next product...
+[Info   : Unity Log] Cheching productID: 36
+[Info   : Unity Log] Looking for available display slot to restock productID: 36
+[Info   : Unity Log] There's no display slot that has productID 36 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 36
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 36. Looking for next product...
+[Info   : Unity Log] Cheching productID: 150
+[Info   : Unity Log] Looking for available display slot to restock productID: 150
+[Info   : Unity Log] There's no display slot that has productID 150 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 150
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 150. Looking for next product...
+[Info   : Unity Log] Cheching productID: 37
+[Info   : Unity Log] Looking for available display slot to restock productID: 37
+[Info   : Unity Log] There's no display slot that has productID 37 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 37
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 37. Looking for next product...
+[Info   : Unity Log] Cheching productID: 75
+[Info   : Unity Log] Looking for available display slot to restock productID: 75
+[Info   : Unity Log] Found an available display slot for productID: 75
+[Info   : Unity Log] Occupied productID: 75
+[Info   : Unity Log] Looking for a racked box that contains productID: 75
+[Info   : Unity Log] Going to target rack slot...
+[Info   : Unity Log] Arrived to target rack slot
+[Info   : Unity Log] Arrived rack slot is good to go
+[Info   : Unity Log] Checking if the target display slot is still available...
+[Info   : Unity Log] Picking up the box
+[Info   : Unity Log] Picked up the box
+[Info   : Unity Log] Started to go to display slots...
+[Info   : Unity Log] Going to target display slot
+[Info   : Unity Log] Arrived to target rack slot
+[Info   : Unity Log] Arrived rack slot is good to go
+[Info   : Unity Log] Checking if the target display slot is still available...
+[Info   : Unity Log] Picking up the box
+[Info   : Unity Log] Picked up the box
+[Info   : Unity Log] Started to go to display slots...
+[Info   : Unity Log] Going to target display slot
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+PlayerObjectHolder.Rotate (System.Boolean clockvise) (at <b2a057aaeee84f4998258f3841da0e37>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.RotateBox (PlayerObjectHolder instance, System.Boolean clockwise) (at <5fda4cf8ffd94455966529445796df8d>:0)
+BetterMovement.PlayerObjectHolder_Update_Patch.Postfix (PlayerObjectHolder __instance) (at <5fda4cf8ffd94455966529445796df8d>:0)
+(wrapper dynamic-method) PlayerObjectHolder.DMD<PlayerObjectHolder::Update>(PlayerObjectHolder)
+
+[Info   : Unity Log] Arrived to target display slot
+[Info   : Unity Log] Arrived display slot is good to go. Starting to restock...
+[Info   : Unity Log] Started restocking...
+[Info   : Unity Log] Completed restocking
+[Info   : Unity Log] The box is empty or no more available display to restock. Dropping the box...
+[Info   : Unity Log] The box is empty. Throwing to trash bin...
+[Info   : Unity Log] Going to trash bin
+[Info   : Unity Log] Arrived to target display slot
+[Info   : Unity Log] Arrived display slot is good to go. Starting to restock...
+[Info   : Unity Log] Started restocking...
+[Info   : Unity Log] Completed restocking
+[Info   : Unity Log] but the box still has products
+[Info   : Unity Log] Looking for available display slot to restock productID: 75
+[Info   : Unity Log] There's no display slot that has productID 75 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 75
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] The box is empty or no more available display to restock. Dropping the box...
+[Info   : Unity Log] The box has products in it. Placing back to racks...
+[Info   : Unity Log] Going to target rack slot to place the box
+[Info   : Unity Log] Arrived to trash bin
+[Info   : Unity Log] Threw the box and looking for another restock...
+[Info   : Unity Log] Looking for something to restock...
+[Info   : Unity Log] State turned to Restocking and resetted targets
+[Info   : Unity Log] Products found in inventory:
+[Info   : Unity Log] ProductID: 2
+[Info   : Unity Log] Product count: 6
+[Info   : Unity Log] ProductID: 42
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 149
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 145
+[Info   : Unity Log] Product count: 10
+[Info   : Unity Log] ProductID: 101
+[Info   : Unity Log] Product count: 11
+[Info   : Unity Log] ProductID: 108
+[Info   : Unity Log] Product count: 12
+[Info   : Unity Log] ProductID: 1
+[Info   : Unity Log] Product count: 13
+[Info   : Unity Log] ProductID: 122
+[Info   : Unity Log] Product count: 14
+[Info   : Unity Log] ProductID: 36
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 150
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 125
+[Info   : Unity Log] Product count: 17
+[Info   : Unity Log] ProductID: 37
+[Info   : Unity Log] Product count: 18
+[Info   : Unity Log] ProductID: 58
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 75
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 107
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 9
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 69
+[Info   : Unity Log] Product count: 23
+[Info   : Unity Log] ProductID: 61
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 63
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 95
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 115
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 77
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 123
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 157
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 120
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 100
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 96
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 134
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 133
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 55
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 119
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 44
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 43
+[Info   : Unity Log] Product count: 30
+[Info   : Unity Log] ProductID: 132
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 140
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 121
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 99
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 85
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 10
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 76
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 56
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 111
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 128
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 41
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 114
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 113
+[Info   : Unity Log] Product count: 35
+[Info   : Unity Log] ProductID: 39
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 32
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 131
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 46
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 65
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 88
+[Info   : Unity Log] Product count: 38
+[Info   : Unity Log] ProductID: 24
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 86
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 66
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 67
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 129
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 34
+[Info   : Unity Log] Product count: 41
+[Info   : Unity Log] ProductID: 3
+[Info   : Unity Log] Product count: 42
+[Info   : Unity Log] ProductID: 147
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 52
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 68
+[Info   : Unity Log] Product count: 44
+[Info   : Unity Log] ProductID: 117
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 64
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 25
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 62
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 70
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 33
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 146
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 141
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 84
+[Info   : Unity Log] Product count: 47
+[Info   : Unity Log] ProductID: 35
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 152
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 116
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 139
+[Info   : Unity Log] Product count: 54
+[Info   : Unity Log] ProductID: 74
+[Info   : Unity Log] Product count: 55
+[Info   : Unity Log] ProductID: 26
+[Info   : Unity Log] Product count: 58
+[Info   : Unity Log] ProductID: 73
+[Info   : Unity Log] Product count: 59
+[Info   : Unity Log] ProductID: 83
+[Info   : Unity Log] Product count: 60
+[Info   : Unity Log] ProductID: 30
+[Info   : Unity Log] Product count: 68
+[Info   : Unity Log] ProductID: 151
+[Info   : Unity Log] Product count: 75
+[Info   : Unity Log] ProductID: 161
+[Info   : Unity Log] Product count: 89
+[Info   : Unity Log] Cheching productID: 2
+[Info   : Unity Log] Looking for available display slot to restock productID: 2
+[Info   : Unity Log] There's no display slot that has productID 2 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 2
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 2. Looking for next product...
+[Info   : Unity Log] Cheching productID: 42
+[Info   : Unity Log] Looking for available display slot to restock productID: 42
+[Info   : Unity Log] There's no display slot that has productID 42 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 42
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 42. Looking for next product...
+[Info   : Unity Log] Cheching productID: 149
+[Info   : Unity Log] Looking for available display slot to restock productID: 149
+[Info   : Unity Log] There's no display slot that has productID 149 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 149
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 149. Looking for next product...
+[Info   : Unity Log] Cheching productID: 145
+[Info   : Unity Log] Looking for available display slot to restock productID: 145
+[Info   : Unity Log] There's no display slot that has productID 145 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 145
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 145. Looking for next product...
+[Info   : Unity Log] Cheching productID: 101
+[Info   : Unity Log] Looking for available display slot to restock productID: 101
+[Info   : Unity Log] There's no display slot that has productID 101 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 101
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 101. Looking for next product...
+[Info   : Unity Log] Cheching productID: 108
+[Info   : Unity Log] Looking for available display slot to restock productID: 108
+[Info   : Unity Log] There's no display slot that has productID 108 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 108
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 108. Looking for next product...
+[Info   : Unity Log] Cheching productID: 1
+[Info   : Unity Log] Looking for available display slot to restock productID: 1
+[Info   : Unity Log] Found an available display slot for productID: 1
+[Info   : Unity Log] Occupied productID: 1
+[Info   : Unity Log] Looking for a racked box that contains productID: 1
+[Info   : Unity Log] There's no rack slot with a box for productID: 1
+[Info   : Unity Log] That's why couldn't find any available rack slot for productID: 1. Looking for next product...
+[Info   : Unity Log] Cheching productID: 122
+[Info   : Unity Log] Looking for available display slot to restock productID: 122
+[Info   : Unity Log] There's no display slot that has productID 122 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 122
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 122. Looking for next product...
+[Info   : Unity Log] Cheching productID: 36
+[Info   : Unity Log] Looking for available display slot to restock productID: 36
+[Info   : Unity Log] There's no display slot that has productID 36 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 36
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 36. Looking for next product...
+[Info   : Unity Log] Cheching productID: 150
+[Info   : Unity Log] Looking for available display slot to restock productID: 150
+[Info   : Unity Log] There's no display slot that has productID 150 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 150
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 150. Looking for next product...
+[Info   : Unity Log] Cheching productID: 125
+[Info   : Unity Log] Looking for available display slot to restock productID: 125
+[Info   : Unity Log] There's no display slot that has productID 125 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 125
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 125. Looking for next product...
+[Info   : Unity Log] Cheching productID: 37
+[Info   : Unity Log] Looking for available display slot to restock productID: 37
+[Info   : Unity Log] There's no display slot that has productID 37 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 37
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 37. Looking for next product...
+[Info   : Unity Log] Cheching productID: 58
+[Info   : Unity Log] Looking for available display slot to restock productID: 58
+[Info   : Unity Log] There's no display slot that has productID 58 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 58
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 58. Looking for next product...
+[Info   : Unity Log] Cheching productID: 75
+[Info   : Unity Log] Another restocker have occupied this product. Looking for next product...
+[Info   : Unity Log] Cheching productID: 107
+[Info   : Unity Log] Looking for available display slot to restock productID: 107
+[Info   : Unity Log] There's no display slot that has productID 107 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 107
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 107. Looking for next product...
+[Info   : Unity Log] Cheching productID: 9
+[Info   : Unity Log] Looking for available display slot to restock productID: 9
+[Info   : Unity Log] Found an available display slot for productID: 9
+[Info   : Unity Log] Occupied productID: 9
+[Info   : Unity Log] Looking for a racked box that contains productID: 9
+[Info   : Unity Log] Going to target rack slot...
+[Info   : Unity Log] Arrived to target rack slot
+[Info   : Unity Log] Arrived rack slot is good to go
+[Info   : Unity Log] Checking if the target display slot is still available...
+[Info   : Unity Log] Picking up the box
+[Info   : Unity Log] Picked up the box
+[Info   : Unity Log] Started to go to display slots...
+[Info   : Unity Log] Going to target display slot
+[Info   : Unity Log] Arrived to target rack slot to place the box
+[Info   : Unity Log] Placed the box and looking for another restock...
+[Info   : Unity Log] Looking for something to restock...
+[Info   : Unity Log] State turned to Restocking and resetted targets
+[Info   : Unity Log] Products found in inventory:
+[Info   : Unity Log] ProductID: 2
+[Info   : Unity Log] Product count: 6
+[Info   : Unity Log] ProductID: 42
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 149
+[Info   : Unity Log] Product count: 8
+[Info   : Unity Log] ProductID: 145
+[Info   : Unity Log] Product count: 10
+[Info   : Unity Log] ProductID: 101
+[Info   : Unity Log] Product count: 11
+[Info   : Unity Log] ProductID: 108
+[Info   : Unity Log] Product count: 12
+[Info   : Unity Log] ProductID: 1
+[Info   : Unity Log] Product count: 13
+[Info   : Unity Log] ProductID: 122
+[Info   : Unity Log] Product count: 14
+[Info   : Unity Log] ProductID: 36
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 150
+[Info   : Unity Log] Product count: 16
+[Info   : Unity Log] ProductID: 125
+[Info   : Unity Log] Product count: 17
+[Info   : Unity Log] ProductID: 37
+[Info   : Unity Log] Product count: 18
+[Info   : Unity Log] ProductID: 58
+[Info   : Unity Log] Product count: 21
+[Info   : Unity Log] ProductID: 75
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 107
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 9
+[Info   : Unity Log] Product count: 22
+[Info   : Unity Log] ProductID: 69
+[Info   : Unity Log] Product count: 23
+[Info   : Unity Log] ProductID: 61
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 63
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 95
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 115
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 77
+[Info   : Unity Log] Product count: 24
+[Info   : Unity Log] ProductID: 123
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 157
+[Info   : Unity Log] Product count: 25
+[Info   : Unity Log] ProductID: 120
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 100
+[Info   : Unity Log] Product count: 26
+[Info   : Unity Log] ProductID: 96
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 134
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 133
+[Info   : Unity Log] Product count: 27
+[Info   : Unity Log] ProductID: 55
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 119
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 44
+[Info   : Unity Log] Product count: 29
+[Info   : Unity Log] ProductID: 43
+[Info   : Unity Log] Product count: 30
+[Info   : Unity Log] ProductID: 132
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 140
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 121
+[Info   : Unity Log] Product count: 31
+[Info   : Unity Log] ProductID: 99
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 85
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 10
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 76
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 56
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 111
+[Info   : Unity Log] Product count: 32
+[Info   : Unity Log] ProductID: 128
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 41
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 114
+[Info   : Unity Log] Product count: 33
+[Info   : Unity Log] ProductID: 39
+[Info   : Unity Log] Product count: 35
+[Info   : Unity Log] ProductID: 113
+[Info   : Unity Log] Product count: 35
+[Info   : Unity Log] ProductID: 32
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 131
+[Info   : Unity Log] Product count: 36
+[Info   : Unity Log] ProductID: 46
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 65
+[Info   : Unity Log] Product count: 37
+[Info   : Unity Log] ProductID: 88
+[Info   : Unity Log] Product count: 38
+[Info   : Unity Log] ProductID: 24
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 86
+[Info   : Unity Log] Product count: 39
+[Info   : Unity Log] ProductID: 66
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 67
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 129
+[Info   : Unity Log] Product count: 40
+[Info   : Unity Log] ProductID: 34
+[Info   : Unity Log] Product count: 41
+[Info   : Unity Log] ProductID: 3
+[Info   : Unity Log] Product count: 42
+[Info   : Unity Log] ProductID: 147
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 52
+[Info   : Unity Log] Product count: 43
+[Info   : Unity Log] ProductID: 68
+[Info   : Unity Log] Product count: 44
+[Info   : Unity Log] ProductID: 25
+[Info   : Unity Log] Product count: 44
+[Info   : Unity Log] ProductID: 117
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 64
+[Info   : Unity Log] Product count: 45
+[Info   : Unity Log] ProductID: 62
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 70
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 33
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 146
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 141
+[Info   : Unity Log] Product count: 46
+[Info   : Unity Log] ProductID: 84
+[Info   : Unity Log] Product count: 47
+[Info   : Unity Log] ProductID: 35
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 152
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 116
+[Info   : Unity Log] Product count: 48
+[Info   : Unity Log] ProductID: 139
+[Info   : Unity Log] Product count: 54
+[Info   : Unity Log] ProductID: 74
+[Info   : Unity Log] Product count: 55
+[Info   : Unity Log] ProductID: 26
+[Info   : Unity Log] Product count: 58
+[Info   : Unity Log] ProductID: 73
+[Info   : Unity Log] Product count: 59
+[Info   : Unity Log] ProductID: 83
+[Info   : Unity Log] Product count: 60
+[Info   : Unity Log] ProductID: 30
+[Info   : Unity Log] Product count: 68
+[Info   : Unity Log] ProductID: 151
+[Info   : Unity Log] Product count: 75
+[Info   : Unity Log] ProductID: 161
+[Info   : Unity Log] Product count: 89
+[Info   : Unity Log] Cheching productID: 2
+[Info   : Unity Log] Looking for available display slot to restock productID: 2
+[Info   : Unity Log] There's no display slot that has productID 2 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 2
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 2. Looking for next product...
+[Info   : Unity Log] Cheching productID: 42
+[Info   : Unity Log] Looking for available display slot to restock productID: 42
+[Info   : Unity Log] There's no display slot that has productID 42 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 42
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 42. Looking for next product...
+[Info   : Unity Log] Cheching productID: 149
+[Info   : Unity Log] Looking for available display slot to restock productID: 149
+[Info   : Unity Log] There's no display slot that has productID 149 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 149
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 149. Looking for next product...
+[Info   : Unity Log] Cheching productID: 145
+[Info   : Unity Log] Looking for available display slot to restock productID: 145
+[Info   : Unity Log] There's no display slot that has productID 145 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 145
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 145. Looking for next product...
+[Info   : Unity Log] Cheching productID: 101
+[Info   : Unity Log] Looking for available display slot to restock productID: 101
+[Info   : Unity Log] There's no display slot that has productID 101 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 101
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 101. Looking for next product...
+[Info   : Unity Log] Cheching productID: 108
+[Info   : Unity Log] Looking for available display slot to restock productID: 108
+[Info   : Unity Log] There's no display slot that has productID 108 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 108
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 108. Looking for next product...
+[Info   : Unity Log] Cheching productID: 1
+[Info   : Unity Log] Looking for available display slot to restock productID: 1
+[Info   : Unity Log] Found an available display slot for productID: 1
+[Info   : Unity Log] Occupied productID: 1
+[Info   : Unity Log] Looking for a racked box that contains productID: 1
+[Info   : Unity Log] There's no rack slot with a box for productID: 1
+[Info   : Unity Log] That's why couldn't find any available rack slot for productID: 1. Looking for next product...
+[Info   : Unity Log] Cheching productID: 122
+[Info   : Unity Log] Looking for available display slot to restock productID: 122
+[Info   : Unity Log] There's no display slot that has productID 122 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 122
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 122. Looking for next product...
+[Info   : Unity Log] Cheching productID: 36
+[Info   : Unity Log] Looking for available display slot to restock productID: 36
+[Info   : Unity Log] There's no display slot that has productID 36 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 36
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 36. Looking for next product...
+[Info   : Unity Log] Cheching productID: 150
+[Info   : Unity Log] Looking for available display slot to restock productID: 150
+[Info   : Unity Log] There's no display slot that has productID 150 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 150
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 150. Looking for next product...
+[Info   : Unity Log] Cheching productID: 125
+[Info   : Unity Log] Looking for available display slot to restock productID: 125
+[Info   : Unity Log] There's no display slot that has productID 125 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 125
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 125. Looking for next product...
+[Info   : Unity Log] Cheching productID: 37
+[Info   : Unity Log] Looking for available display slot to restock productID: 37
+[Info   : Unity Log] There's no display slot that has productID 37 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 37
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 37. Looking for next product...
+[Info   : Unity Log] Cheching productID: 58
+[Info   : Unity Log] Looking for available display slot to restock productID: 58
+[Info   : Unity Log] There's no display slot that has productID 58 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 58
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 58. Looking for next product...
+[Info   : Unity Log] Cheching productID: 75
+[Info   : Unity Log] Looking for available display slot to restock productID: 75
+[Info   : Unity Log] There's no display slot that has productID 75 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 75
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 75. Looking for next product...
+[Info   : Unity Log] Cheching productID: 107
+[Info   : Unity Log] Looking for available display slot to restock productID: 107
+[Info   : Unity Log] There's no display slot that has productID 107 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 107
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 107. Looking for next product...
+[Info   : Unity Log] Cheching productID: 9
+[Info   : Unity Log] Another restocker have occupied this product. Looking for next product...
+[Info   : Unity Log] Cheching productID: 69
+[Info   : Unity Log] Looking for available display slot to restock productID: 69
+[Info   : Unity Log] There's no display slot that has productID 69 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 69
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 69. Looking for next product...
+[Info   : Unity Log] Cheching productID: 61
+[Info   : Unity Log] Looking for available display slot to restock productID: 61
+[Info   : Unity Log] There's no display slot that has productID 61 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 61
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 61. Looking for next product...
+[Info   : Unity Log] Cheching productID: 63
+[Info   : Unity Log] Looking for available display slot to restock productID: 63
+[Info   : Unity Log] There's no display slot that has productID 63 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 63
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 63. Looking for next product...
+[Info   : Unity Log] Cheching productID: 95
+[Info   : Unity Log] Looking for available display slot to restock productID: 95
+[Info   : Unity Log] There's no display slot that has productID 95 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 95
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 95. Looking for next product...
+[Info   : Unity Log] Cheching productID: 115
+[Info   : Unity Log] Looking for available display slot to restock productID: 115
+[Info   : Unity Log] There's no display slot that has productID 115 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 115
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 115. Looking for next product...
+[Info   : Unity Log] Cheching productID: 77
+[Info   : Unity Log] Looking for available display slot to restock productID: 77
+[Info   : Unity Log] There's no display slot that has productID 77 with at least 25% empty space
+[Info   : Unity Log] Checking if there's any display slot that's empty but labeled with productID: 77
+[Info   : Unity Log] There's no labeled empty slot eihter
+[Info   : Unity Log] Couldn't find any available display slot to restock productID: 77. Looking for next product...
+[Info   : Unity Log] Cheching productID: 123
+[Info   : Unity Log] Looking for available display slot to restock productID: 123
+[Info   : Unity Log] Found an available display slot for productID: 123
+[Info   : Unity Log] Occupied productID: 123
+[Info   : Unity Log] Looking for a racked box that contains productID: 123
+[Info   : Unity Log] Going to target rack slot...
+[Info   : Unity Log] Arrived to target rack slot
+[Info   : Unity Log] Arrived rack slot is good to go
+[Info   : Unity Log] Checking if the target display slot is still available...
+[Info   : Unity Log] Picking up the box
+[Info   : Unity Log] Picked up the box
+[Info   : Unity Log] Started to go to display slots...
+[Info   : Unity Log] Going to target display slot
+[Warning: Unity Log] <color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 1 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 1 startup errors
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : PriceManager not found on scene
+[Error  : Unity Log] Singleton of type : StoreStatus not found on scene
+[Error  : Unity Log] Singleton of type : StoreStatus not found on scene
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Error  : Unity Log] Singleton of type : ProductLicenseManager not found on scene
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : PlayerInteraction not found on scene
+[Error  : Unity Log] Singleton of type : CarColliderManager not found on scene
+[Message:MelonLoader] Preferences Saved!
